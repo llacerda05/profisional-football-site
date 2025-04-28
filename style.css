@@ -1,39 +1,118 @@
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header .logo img {
+    height: 50px;
+}
+
+.header .navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #0a0a23;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
+.header .navigation ul li {
+    margin-left: 20px;
 }
 
-.player-list {
+.header .navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background: #006400;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cards {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2rem;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.player {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 1rem 2rem;
-    margin: 1rem 0;
-    width: 300px;
-    text-align: center;
+.card {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
 }
 
-footer {
-    background-color: #0a0a23;
-    color: white;
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.card .btn {
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+    padding: 10px 0;
 }
