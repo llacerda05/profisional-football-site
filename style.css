@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -12,8 +12,8 @@ body {
 }
 
 .header {
-    background: #333;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
     padding: 10px 0;
 }
 
@@ -34,14 +34,14 @@ body {
 }
 
 .header .navigation ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
 
 .hero {
     background: url('hero.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #000000;
     text-align: center;
     padding: 100px 20px;
 }
@@ -58,7 +58,7 @@ body {
 
 .hero .btn {
     background: #006400;
-    color: #fff;
+    color: #000000;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
@@ -102,8 +102,8 @@ body {
 }
 
 .card .btn {
-    background: #333;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
     padding: 5px 10px;
     text-decoration: none;
     font-weight: bold;
@@ -111,8 +111,8 @@ body {
 }
 
 .footer {
-    background: #333;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 10px 0;
 }
