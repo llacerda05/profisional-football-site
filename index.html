@@ -1,39 +1,100 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Futebol</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Futebol Análise</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Ranking de Jogadores - Futebol</h1>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo Futebol Análise">
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#analises">Análises</a></li>
+                    <li><a href="#estatisticas">Estatísticas</a></li>
+                    <li><a href="#jogadores">Jogadores</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="player-list">
-            <div class="player">
-                <h2>Jogador 1</h2>
-                <p>Nota: 92</p>
-                <p>Time: FC Futebol</p>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Bem-vindo ao Futebol Análise</h1>
+                <p>O melhor lugar para análises, estatísticas e insights sobre o mundo do futebol.</p>
+                <a href="#analises" class="btn">Comece Agora</a>
             </div>
-            <div class="player">
-                <h2>Jogador 2</h2>
-                <p>Nota: 88</p>
-                <p>Time: Esporte Clube</p>
+        </section>
+
+        <section id="analises" class="section">
+            <div class="container">
+                <h2>Análises Recentes</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="analise1.jpg" alt="Análise 1">
+                        <h3>Os melhores atacantes da temporada</h3>
+                        <p>Uma análise detalhada sobre os atacantes mais eficientes do futebol mundial.</p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                    <div class="card">
+                        <img src="analise2.jpg" alt="Análise 2">
+                        <h3>Os times mais consistentes</h3>
+                        <p>Descubra quais equipes têm o melhor desempenho em competições internacionais.</p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                    <div class="card">
+                        <img src="analise3.jpg" alt="Análise 3">
+                        <h3>Os goleiros mais confiáveis</h3>
+                        <p>Estatísticas e insights sobre os goleiros que fazem a diferença.</p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
             </div>
-            <div class="player">
-                <h2>Jogador 3</h2>
-                <p>Nota: 85</p>
-                <p>Time: Atlético Bola</p>
+        </section>
+
+        <section id="estatisticas" class="section">
+            <div class="container">
+                <h2>Estatísticas</h2>
+                <p>Explore dados detalhados sobre jogadores, times e competições.</p>
+                <a href="#" class="btn">Ver Estatísticas</a>
+            </div>
+        </section>
+
+        <section id="jogadores" class="section">
+            <div class="container">
+                <h2>Jogadores em Destaque</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="jogador1.jpg" alt="Jogador 1">
+                        <h3>Lionel Messi</h3>
+                        <p>Estatísticas e desempenho do craque argentino.</p>
+                    </div>
+                    <div class="card">
+                        <img src="jogador2.jpg" alt="Jogador 2">
+                        <h3>Cristiano Ronaldo</h3>
+                        <p>Os números do astro português em sua carreira.</p>
+                    </div>
+                    <div class="card">
+                        <img src="jogador3.jpg" alt="Jogador 3">
+                        <h3>Neymar Jr.</h3>
+                        <p>Desempenho e impacto do brasileiro nos gramados.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>Feito por [Seu Nome]</p>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Futebol Análise. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
